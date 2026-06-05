@@ -16,7 +16,7 @@ body {
 }
 
 /* 이미지 속 레포지토리처럼 정갈한 A4 용지 스타일의 컨테이너 */
-.resume-container {
+.cv-container {
     background-color: #ffffff;
     max-width: 800px;
     width: 100%;
@@ -25,7 +25,7 @@ body {
 }
 
 /* 헤더 영역: 정보는 왼쪽, 사진은 오른쪽 정렬 */
-.resume-header {
+.cv-header {
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
@@ -33,7 +33,7 @@ body {
 }
 
 .header-info {
-    width: 75%;
+    width: 100%;
 }
 
 .header-info h1 {
@@ -54,7 +54,7 @@ body {
 /* 생년월일, 연락처 등을 정갈하게 배치하는 그리드 */
 .contact-grid {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 2fr 2fr;
     gap: 8px 15px;
     font-size: 0.95rem;
     color: #444444;
@@ -68,8 +68,7 @@ body {
 
 /* 이미지 속 직사각형 형태의 깔끔한 프로필 영역 */
 .header-profile {
-    width: 20%;
-    text-align: right;
+    margin-bottom: 25px;
 }
 
 .profile-img {
@@ -81,7 +80,7 @@ body {
 }
 
 /* 각 서류 섹션 스타일 */
-.resume-section {
+.cv-section {
     margin-bottom: 35px;
 }
 
